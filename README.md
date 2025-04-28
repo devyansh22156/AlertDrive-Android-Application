@@ -25,11 +25,6 @@ It uses a deep learning model deployed via a Flask backend and an Android app bu
   - Automatically sends frames periodically to backend for prediction.
   - Displays results to the driver.
 
-## 📱App Screenshots
-Below are key app screens
-### Login screen
-![Login Screen](./UI_Images/login.jpg)
-
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -109,6 +104,20 @@ private const val BASE_URL = "http://192.168.1.5:5000/"
   - Loss: Binary Cross-Entropy
   - Early stopping and data balancing techniques used.
 - **Achieved Accuracy**: ~99.65% on validation set.
+
+## 📱App Screenshots
+Below are key app screens
+### Login screen
+![Login Screen](./UI_Images/login.jpg)
+
+### Dashboard screen
+![Dashboard](./UI_Images/dashboard.jpg)
+
+### Drowsy Detected
+![Drowsy Detected](./UI_Images/drowsy.jpg)
+
+### Non-Drowsy Detected
+![Non-Drowsy Detected](./UI_Images/nondrowsy.jpg)
 
 ## 🚀 Future Improvements
 
